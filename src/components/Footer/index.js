@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// styles.scss
 import './styles.scss';
 
-
 const Footer = props => {
-
-
     return (
         <div className="footer">
 

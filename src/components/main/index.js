@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
 
+// actions
 import { submitFormStart } from "../../redux/actions";
 
 // components
 import FormInput from '../forms/FormInput'
 import Button from '../forms/Button';
-import WhyUs from '../WhyUs';
 
+// styles
 import './styles.scss';
 
 const Homepage = props => {
@@ -16,7 +17,6 @@ const Homepage = props => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-
 
     const handleSubmit = (e) => {
         e.preventDefault();

@@ -1,8 +1,9 @@
 import React from 'react';
+
+// styles
 import './styles.scss';
 
 const MakeDiff = props => {
-
     return (
         <div className = "makediff">
             <h1>
@@ -41,7 +42,7 @@ const MakeDiff = props => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default MakeDiff;

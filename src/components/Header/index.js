@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// styles
 import './styles.scss';
 
+// assets
 import Logo from '../../asssets/imgs/Logo.png';
 
 const Header = props => {
-
     return (
         <header className="header">
             <div className='wrap'>
@@ -42,7 +43,7 @@ const Header = props => {
                 </div>
             </div>
         </header>
-    )
+    );
 };
 
 export default Header; 

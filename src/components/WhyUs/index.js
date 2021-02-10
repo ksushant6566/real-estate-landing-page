@@ -1,14 +1,15 @@
 import React from 'react';
 
+// assets
 import HouseIcon from '../../asssets/imgs/houseIcon.svg';
 import RentIcon from '../../asssets/imgs/rentIcon.svg';
 import ListIcon from '../../asssets/imgs/listingIcon.svg';
 import BrokerageIcon from '../../asssets/imgs/brokerageIcon.svg';
 
+// styles
 import './styles.scss';
 
 const WhyUs = props => {
-
     return (
         <div className="whyus">
             <h1>
@@ -53,7 +54,7 @@ const WhyUs = props => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default WhyUs;
