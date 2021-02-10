@@ -1,0 +1,37 @@
+.whyus {
+    width: 100%;
+    height: 50rem;
+    padding: 4rem 0;
+
+    h1 {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 1rem 5rem;
+        border-bottom: 2px solid grey;
+    }
+    
+    .wrap {
+        width: 100%;
+        height: 36rem;
+        max-width: 1450px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        .card {
+            width: 25%;
+            padding: 3rem 5rem;
+            height: 30rem;
+            text-align: center;
+
+            img {
+                max-width: 55%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+    }
+
+}

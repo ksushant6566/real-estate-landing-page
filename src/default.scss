@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+html,
+body,
+#root,
+.App,
+.fullHeight {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 2rem;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+    color: #000000;
+    text-align: left;
+    font-weight: 400;
+}
+  
+h2 {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 2rem;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    color: #000000;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: #d3d3d3;
+}  
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a, a:hover {
+    transition : all .1s ease-in-out;
+}

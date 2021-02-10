@@ -1,0 +1,58 @@
+.header {
+    height: 6rem;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.wrap {
+    position: relative;
+    max-width: 1450px;
+    height: 100%;
+    margin: 0 auto;
+
+    .logo {
+        width: 13rem;
+        position: absolute;
+        top: 50%; left: 5%;
+        transform: translateY(-50%);
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    .callToActions {
+        position: absolute;
+        top: 50%; right: 5%;
+        transform: translateY(-50%);
+        --webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+
+        ul,
+        li {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 1.5rem;
+            
+            &:last-child {
+                margin: 0;
+            }
+
+            a, span {
+                color: black;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
